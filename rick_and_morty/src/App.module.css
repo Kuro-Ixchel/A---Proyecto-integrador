@@ -1,0 +1,8 @@
+.nav{
+   display: flex;
+   justify-content: center;
+   background-color: rgb(52, 5, 100);
+   border-radius: 35%;
+   padding: 6px;
+   margin-bottom: 3px;
+}

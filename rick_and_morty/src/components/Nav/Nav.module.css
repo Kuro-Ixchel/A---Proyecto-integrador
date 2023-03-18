@@ -1,0 +1,13 @@
+.linkTo{
+    display: flex;
+    flex-direction: column;
+    color: rgb(147, 128, 149);
+    will-change: auto;
+    font-size: 20px;
+    font-family:fantasy-cursive;
+}
+
+.nav{
+    display: flex;
+    
+}

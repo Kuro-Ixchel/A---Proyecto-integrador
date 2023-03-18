@@ -1,0 +1,20 @@
+.SearchInput{
+    display: flex;
+    border-radius: 15px 0px 0px 15px;
+    background-color: rgb(158, 147, 152);
+    justify-content: center;
+    width: auto;
+}
+.SearchButton{
+    display: flex;
+    border-radius: 0px 15px 15px 0px;
+    background-color: rgb(88, 77, 82);
+    justify-content: center;
+    width:auto;
+
+}
+.SearchBar{
+    display: flex;
+    width: 5%;
+    justify-content: center;
+}

@@ -1,0 +1,13 @@
+.cardsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 15%;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 80%;
+    background-image: url("../Images/Rick\ y\ Morty.png");
+}
