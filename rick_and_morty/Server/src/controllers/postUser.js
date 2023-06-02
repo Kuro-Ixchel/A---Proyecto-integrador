@@ -6,9 +6,9 @@ const postUser = async (req, res)=>{
     try {
         if(email && password){
             return
-        }return res.status(400).json({message:'Faltan datos'})
+        }return res.status(400).json({message:'Faltan datos'});
     } catch (error) {
-        
+        return res.status(500).json({message:error});
     }
 }
 
