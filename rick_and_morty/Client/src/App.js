@@ -1,11 +1,11 @@
-import Cards from './components/Cards/Cards.jsx'
-import Nav from './components/Nav/Nav.jsx'
-import { useState } from 'react'
-import style from './App.module.css'
-import { Route, Routes } from 'react-router-dom'
-import About from './components/About/About.jsx'
-import axios from 'axios'
-import Detail from './components/Detail/Detail.jsx'
+import Cards from './components/Cards/Cards.jsx';
+import Nav from './components/Nav/Nav.jsx';
+import { useState } from 'react';
+import style from './App.module.css';
+import { Route, Routes } from 'react-router-dom';
+import About from './components/About/About.jsx';
+import axios from 'axios';
+import Detail from './components/Detail/Detail.jsx';
 
 const URL = 'http://localhost:3001/rickandmorty/login/';
 
