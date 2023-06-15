@@ -31,7 +31,7 @@ const getCharByid = async (res, req) =>{
 
     try {
         const {id} = req.params
-        const {data}= await axios(`${URl}/${id}`)
+        const {data}= await axios(`${URL}/${id}`)
         
         if(!data.name) throw Error(`No tenemos los datos del personaje con el id: ${id} Not fount`)   
             const character={
@@ -51,7 +51,7 @@ const getCharByid = async (res, req) =>{
         : res.status(500).send(error.message)   
     };
 
-}
+};
 
 
 module.exports={
